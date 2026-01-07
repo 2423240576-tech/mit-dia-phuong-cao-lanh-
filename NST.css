@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffbea;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.banner {
+  background-color: #f7c948; /* vàng tươi như màu mít chín */
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.banner p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  font-style: italic;
+}
+
+nav {
+  background-color: #4caf50; /* xanh lá mít */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  background-color: white;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+main img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+
+.note {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+/* --- Bảng giá --- */
+.bang-gia {
+  margin-top: 30px;
+}
+
+.bang-gia h3 {
+  text-align: center;
+  color: #e67300;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffe699;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #fff8dc;
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  padding: 10px;
+}
